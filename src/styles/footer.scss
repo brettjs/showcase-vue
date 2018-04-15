@@ -1,0 +1,74 @@
+.footer {
+	width: 100%;
+
+	color: $brand-lightest;
+	background: #000000;
+
+	a, a:hover, a:focus {
+		cursor: pointer;
+		color: $brand-lightest;
+	}
+
+	&.mini {
+		position: fixed;
+		left: 0;
+		bottom: -10rem;
+		width: auto;
+		height: auto;
+		height: 3rem;
+		opacity: .5;
+
+		a {
+			width: 100%;
+			height: 100%;
+			padding: 1rem;
+			margin: 0;
+			line-height: .5rem;
+			position: relative;
+		}
+	}
+
+	&.mega {
+		@include font-fancy;
+		position: relative;
+		float: left;
+		bottom: 0;
+		height: 100vh;
+    border-bottom: 35px solid #C8D02D;
+	}
+
+
+	p {
+		font-size: 100%;
+		padding: 1rem;
+		margin: 0;
+		text-align: center;
+		width: 98%;
+		color: $brand-dark;
+	}
+
+	.row {
+		margin: 0;
+
+		&.one {
+			margin-top: 40vh;
+
+			.fa {
+				font-size: 300%;
+			}
+		}
+	}
+
+	.col {
+		margin: 0;
+		padding: 0;
+	}
+
+	&.sm {
+		bottom: 0rem;
+	}
+
+	&.end {
+		display: none;
+	}
+}

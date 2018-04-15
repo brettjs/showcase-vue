@@ -1,0 +1,186 @@
+/* default-mobile-below-768 */
+
+aside {
+	background-color: transparent;//$brand-panel-light;
+	margin: 0;
+	padding: 1%;
+	right: calc(50% - 12.5%);
+	width: 100%;
+	height: auto;
+	clear: both;
+	overflow: hidden;
+	top: -10vw;
+	transition: top .8s;
+
+
+	figure {
+		background: transparent;
+		margin: 0 0 0 5%;
+		min-width: 8vw;
+		float: left;
+		clear: none;
+		width: 24%;
+		margin: 3rem 2rem 0 3rem;
+
+		img {
+			width: 100%;
+			min-width: 8vw;
+			border: 2px solid $brand-dark;
+			border-radius: 100%;
+			@include flat-shadow($shadow-small);
+		}
+	}
+
+	&.sm {
+		top: 3rem;
+
+		figure {
+
+			img {
+			}
+		}
+	}
+
+	&.end {
+		top: -100vh;
+	}
+
+	p, h1, h2 {
+		width: 60%;
+		max-width: 60%;
+		margin-left: 0;
+		margin-right: 0;
+		float: right;
+	    clear: right;
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 250%;
+		line-height: 120%;
+		font-weight: bold;
+		margin-top: 8%;
+		margin-bottom: 1%;
+	}
+
+	h2 {
+		font-size: 80%;
+		line-height: 140%; 
+		margin-top: 0;
+		margin-bottom: 1rem;
+		border-top: 1px dotted $brand-panel;
+
+	}
+
+	.btn {
+		color: #999999;
+		border-color: #999999;
+		background-color: #FFFFFF;
+		transition: top .5s;
+		opacity: 1;
+
+		&:hover {
+			color: #999999;
+			border-color: #999999;
+			background-color: #FFFFFF;
+
+			@include flat-shadow($shadow-small);
+		}
+	}
+}
+
+
+/* mobile-640-above */
+@media screen and (min-width: 640px) {
+	aside {
+		figure {
+		}
+
+		p {
+			&.mobile-only {
+				font-weight: bolder;
+			}
+		}
+	}
+}
+
+/* desktop-768-above */
+@media screen and (min-width: 768px) {
+
+	aside {
+		position: fixed;
+		max-width: 10%;
+		height: 100vh;
+		right: 0;
+		z-index: 2000;
+		padding: 0;
+
+		figure {
+			width: 35%;
+			padding: 0;
+			margin: 10%;
+			clear: both;
+
+			img {
+				border-radius: 100%;
+				transform: rotate3d(0, 0, 0, 0deg);
+				transform-style: preserve-3d;
+				backface-visibility: hidden;
+				box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+				transition: all .3s;
+				max-width: 100%;
+				width: 20vw;
+				
+				&:hover {
+					transform: rotate3d(20, 20, 0, 10deg);
+					box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.3);
+				}
+			}
+
+		}
+
+		&.sm {
+
+			.btn {
+				top: 0;
+				opacity: 1;
+			}
+
+			figure {
+				width: 35%;
+				margin: 10%;
+
+				img {
+				}
+			}
+
+			p {
+				margin: 0;
+			}
+		}
+
+		h2 {
+			display: none;
+		}
+
+		p {
+	    	clear: none;
+	    	float: left;
+			margin: 1rem 0 0 0;
+		    width: 100%;
+		    max-width: 100%;
+			font-size: 100%;
+
+			.btn {
+				position: relative;
+				top: -10rem;
+				margin: 0;
+				font-size: 100%;
+				width: 90%;
+				opacity: 1;
+			}
+		}
+
+	}
+
+}

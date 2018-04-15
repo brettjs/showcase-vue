@@ -1,0 +1,18 @@
+@keyframes slide-in {
+	0% {
+		position: fixed;
+		top: 2rem;
+	}
+	100% {
+		position: fixed;
+		top: 0;
+	}
+}
+
+
+@keyframes fade {
+	from {
+		transform: translateY(.25em);
+		opacity: 0
+	}
+}

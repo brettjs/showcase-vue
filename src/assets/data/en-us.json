@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "author": "Brett Slone",
+    "role": "Fancy-pants Front End Engineer",
+    "role-long": "Front&nbsp;End Development, Consulting, and Design",
+    "description": "I'm a seasoned, multi-talented web developer and user interface designer with 18 years' professional experience with front end / back end development and usability."
+  },
+  "avatar": {
+    "content-short": "Let's talk",
+    "content-long": "Let's talk about your project"
+  },
+  "global": {
+    "photo-of": "Photo of {name}"
+  },
+  "main": {
+    "intro": "Hey there, beautiful. I’m <strong>Brett Slone</strong>, a front end developer with <a href='http://www.brettslone.com/dl/brettSloneResume.pdf'>18 years’ experience</a> in the web world.",
+    "lead-content": "<p>Every project I approach with you is a unique creature. That’s why it helps for us to <strong>develop an overview of the project</strong> from start to finish. This ensures that we have a <strong>shared vision of success</strong>. And that, folks, is how we acheive durable and  <strong>fantastic craftsmanship</strong> from start to finish.</p><p>And, don't worry. I’m right there with you in the trenches, so I’m able to offer help and insight at every stage.</p>",
+    "tagline": "Let’s make this interesting",
+    "lead": "by focusing on responsive design, performance… and some fun details",
+    "contact": "Contact",
+    "resume": "Résumé"
+  },
+  "sections": {
+    "front-end": {
+      "title": "Front End Development:",
+      "subtitle": "Where the magic happens.",
+      "content": "<p>I create interactive, impactful web experiences that ensure users can quickly, easily read and identify with your content, no matter their preferred device. Utilizing mobile-first, responsive (or reactive) principles is the best way to guarantee beautiful layouts, at any size, and convey the appropriate amount of information while doing it.</p><p>I use sensible, semantic HTML5 and CSS3 as the basis for simple layouts. Interactivity is enabled with native JavaScript where performance is essential. If your needs are a bit more complex, though, don’t worry; I'm also well-versed in EmberJS (❤️), React, Angular, and assorted other libraries/frameworks as appropriate.</p>"
+    },
+    "full-stack": {
+      "title": "Full-stack Solutions:",
+      "subtitle": "Let's make this puppy secure.",
+      "content": "<p>Even in these days of offline web applications, your data ultimately has to come from somewhere, right? I choose the most end-user intuitive, secure, and solid solution, all for a cost that’s just the right size, even for small clients.</p><p>Most clients choose LAMP (Linux-Apache-MySQL-PHP) web applications because of their great, low start-up costs. However, if you have an existing technology stack, that’s no problem, either.</p>"
+    },
+    "design-creative": {
+      "title": "Design &amp; Creative:",
+      "subtitle": "Beautiful pixels for a beautiful you.",
+      "content": "<p>I have a degree in <a href='http://www.uky.edu/'' target='_blank'>studio art <span class='glyphicon glyphicon-new-window'></span></a> and, coupled with a solid eye for design, that means your pixels will be as carefully crafted and lovingly polished as if they were my own. I can also help you with photography, editing, if the need arises.</p>"
+    },
+    "other-technology": {
+      "title": "Tools and nerd things.",
+      "subtitle": "(You didn't ask? Oh, well.)",
+      "content": "<p>New tools are fun. It&rsquo;s a fantastic day when I discover something that makes the web experience simpler and more accessible for everyone (including me!) My standard build system is Grunt with Bower components and Git version control. I use Sass 3 to organize and modularize my stylesheets and Modernizr to assist with cross-browser compatibility.</p>"
+    }
+  },
+  "items": {
+    "js": "JavaScript",
+    "html5": "HTML5",
+    "css": "CSS3",
+    "angular": "Angular",
+    "ember": "EmberJS",
+    "react": "React",
+    "vanilla": "VanillaJS",
+    "bootstrap": "Bootstrap",
+    "jquery": "jQuery",
+    "node": "NodeJS",
+    "cosmicjs": "CosmicJS",
+    "wordpress": "WordPress",
+    "php": "PHP",
+    "mysql": "MySQL",
+    "java": "Java",
+    "ruby": "Ruby",
+    "aws": "Amazon WebServices",
+
+    "ps": "Photoshop",
+    "ai": "Illustrator",
+    "lr": "LightRoom",
+    "sketch": "Sketch",
+    "invision": "InvisionApp",
+    "balsamiq": "Balsamiq",
+    "omnigraffle": "OmniGraffle",
+    "usertesting": "UserTesting.com",
+
+    "sass": "Sass",
+    "susy": "Susy",
+    "bulma": "Bulma",
+    "babel": "Babel",
+    "webpack": "Webpack",
+    "gulp": "gulp",
+    "grunt": "Grunt",
+    "git": "Git"
+
+
+
+  },
+  "item-categories": {
+    "foundations": "Foundations",
+    "frameworks": "Frameworks",
+    "flavors": "Flavors",
+    "super-powered": "Super-powered <span class='dfn' title='Single-Page Applications'>SPAs</span>",
+    "standard": "Traditional Multipage",
+    "variants": "Other variants"
+  }
+}
